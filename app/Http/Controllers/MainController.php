@@ -10,21 +10,21 @@ class MainController extends Controller
 {
   public function index()
   {
-    return "Home page";
+    return view('home');
   }
 
   public function about()
   {
-    return "About page";
+    return view('about');
   }
 
   public function services()
   {
-    return "Services page";
+    return view('services');
   }
 
   public function gallery()
   {
-    return "Gallery page";
+    return view('gallery');
   }
 }
