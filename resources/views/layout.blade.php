@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Barkin' Bones Inn</title>
+        @include('includes.head')
 
-        @yield('header')
+        @yield('head')
     </head>
     <body>
       <!-- Navigation bar -->
+      @include('includes.navbar')
 
       @yield('content')
 
-      @yield('footer')
+      @include('includes.footer')
     </body>
 </html>
