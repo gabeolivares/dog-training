@@ -6,11 +6,13 @@
         @yield('head')
     </head>
     <body>
-      <!-- Navigation bar -->
-      @include('includes.navbar')
+        <!-- Navigation bar -->
+        @include('includes.navbar')
 
-      @yield('content')
+        @yield('content')
 
-      @include('includes.footer')
+        @include('includes.footer')
+
+        @yield('footer')
     </body>
 </html>
