@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> The Barkin' Bones Inn</a>
+            <a class="navbar-brand page-scroll" href="/"><i class="ion-ios-analytics-outline"></i> The Barkin' Bones Inn</a>
         </div>
         <div class="navbar-collapse collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
