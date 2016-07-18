@@ -53,5 +53,5 @@
 @stop
 
 @section('footer')
-<!-- Load specific JS  -->
+<script src="/js/contact.js"></script>
 @stop

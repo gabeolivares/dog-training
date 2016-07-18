@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="author" content="The Barkin' Bones Inn">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <title>The Barkin' Bones Inn</title>
 
