@@ -13,8 +13,18 @@ class ContactController extends Controller
       return view('contact');
     }
 
-    public function send()
+    public function send(Request $request)
     {
+      $this->validate($request, [
+        'email' => 'required|email'
+      ]);
+
+      $input = $request->input();
+      // $input['email'];
+      // $input['first_name'];
+      // $input['last_name'];
+      // $input['comments'];
+      
       // TODO - Setup mailgun
       // TODO - Send validate email and message
       // TODO - Send email via mailgun
