@@ -47,6 +47,16 @@ p {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 20px;
+    color: #eee;
+    /*color: #e3f1bb;*/
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  padding: 0 10%;
 }
 
 .wide-space {
@@ -63,7 +73,7 @@ p {
 }
 
 .bg-dark {
-    color: #eee;
+    /*color: #eee;*/
     background-color: #8431D6;
 }
 
