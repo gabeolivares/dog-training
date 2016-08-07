@@ -6,7 +6,13 @@
 
 @section('content')
 
-<h1>Services Page</h1>
+<section>
+  <div class="text">
+    <h1>Services Page</h1>
+  </div>
+
+  
+</section>
 
 @stop
 

@@ -15,7 +15,7 @@
       </div>
   </div>
   <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-      <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+      <source src="http://video.wixstatic.com/video/11062b_dadf974a47664e5cb42f939b7f17bec8/1080p/mp4/file.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
   </video>
 </header>
 
