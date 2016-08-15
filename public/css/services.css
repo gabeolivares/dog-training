@@ -1,0 +1,23 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  padding: 190px 0;
+  width: 100%;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.services {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.service {
+  text-align: center;
+}
