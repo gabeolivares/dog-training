@@ -40,6 +40,10 @@
   bottom: -200px;
 }
 
+#training img {
+  top: -210px;
+}
+
 @media(max-width:768px) {
   .service {
     padding: 0;
@@ -53,7 +57,15 @@
     top: -45px;
   }
 
+  #training img {
+    top: 0;
+  }
+
   .banner {
     padding-bottom: 0px;
   }
+}
+
+.row {
+  margin: 0;
 }

@@ -7,45 +7,45 @@
 @section('content')
 
 <section>
-  <div class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/a_auto_right/v1470973714/services/banner.jpg" />
-  </div>
-
   <div class="text">
-    <h1>Exclusive Page</h1>
+    <h1>Exclusive Services</h1>
+
+    <p>
+      Doggy Day Care(Cage-free) we are trained professionals, midday potty breaks/exercise,
+      midday medications drop-ins, dogs are monitored 24/7
+    </p>
   </div>
 
-  <div class="services">
-    <div class="row">
-      <a href="/services/boarding" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+  <hr />
 
-        <h3>Dog Boarding</h3>
-      </a>
+  <div id="exclusive" class="banner">
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
+  </div>
 
-      <a href="/services/grooming" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+  <hr />
 
-        <h3>Grooming</h3>
-      </a>
-
-      <a href="/services/training" class="col-sm-12 col-md-4 service" href="/services/training">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
-
-        <h3>Training</h3>
-      </a>
+  <div class="row descriptions">
+    <div class="col-md-3">
+      <h4>Bark-O-Fun(Doggy Daycare)</h4>
+      <p>$25/day</p>
     </div>
 
-    <br />
+    <div class="col-md-3">
+      <h4>Pet Taxi</h4>
+      <p>10-30 Round Trip(Rates are based off location) Taxi runs AM-Midday-PM</p>
+    </div>
 
-    <div class="row">
-      <a href="/services/exclusive" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+    <div class="col-md-3">
+      <h4>BizzyBone</h4>
+      <p>Frozen stuffed goodie Kong $5</p>
+    </div>
 
-        <h3>Exclusive Services</h3>
-      </a>
+    <div class="col-md-3">
+      <h4>30 minutes Bark Walk</h4>
+      <p>$15(boarding rate)</p>
     </div>
   </div>
+
 </section>
 
 @stop
