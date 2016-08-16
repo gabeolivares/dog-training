@@ -23,29 +23,31 @@
 
   <div class="services">
     <div class="row">
-      <a href="/services/boarding" class="col-sm-12 col-md-4 service">
+      <a href="/services/boarding" class="col-sm-12 col-md-6 service">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_2082,y_1314/v1471306982/services/boarding.jpg" />
 
         <h3>Dog Boarding</h3>
       </a>
 
-      <a href="/services/grooming" class="col-sm-12 col-md-4 service">
+      <a href="/services/grooming" class="col-sm-12 col-md-6 service">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1471305967/services/grooming.jpg" />
 
         <h3>Grooming</h3>
       </a>
 
-      <a href="/services/training" class="col-sm-12 col-md-4 service" href="/services/training">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
 
-        <h3>Training</h3>
-      </a>
     </div>
 
     <br />
 
     <div class="row">
-      <a href="/services/exclusive" class="col-sm-12 col-md-offset-4 col-md-4 service">
+      <a href="/services/training" class="col-sm-12 col-md-6 service" href="/services/training">
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
+
+        <h3>Training</h3>
+      </a>
+
+      <a href="/services/exclusive" class="col-sm-12 col-md-6 service">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
 
         <h3>Exclusive Services</h3>
