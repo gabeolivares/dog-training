@@ -7,45 +7,45 @@
 @section('content')
 
 <section>
-  <div class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/a_auto_right/v1470973714/services/banner.jpg" />
-  </div>
-
   <div class="text">
-    <h1>Training Page</h1>
+    <h1>Training-Behavior Modification- Puppy/Adult Socialization</h1>
+
+    <p>
+      Please inquire. Training is based <b>off</b> behavior of dog, age, and socialization.
+      You may be eligible for a free evaluation.
+    </p>
   </div>
 
-  <div class="services">
-    <div class="row">
-      <a href="/services/boarding" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+  <hr />
 
-        <h3>Dog Boarding</h3>
-      </a>
+  <div id="training" class="banner">
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
+  </div>
 
-      <a href="/services/grooming" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+  <hr />
 
-        <h3>Grooming</h3>
-      </a>
-
-      <a href="/services/training" class="col-sm-12 col-md-4 service" href="/services/training">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
-
-        <h3>Training</h3>
-      </a>
+  <div class="row descriptions">
+    <div class="col-md-3">
+      <h4>Special Trick Class</h4>
+      <p>$50/session</p>
     </div>
 
-    <br />
+    <div class="col-md-3">
+      <h4>Obedience(Basic-Supreme)</h4>
+      <p>$35-$50 per session. Sessions at 60-75min long and last from 4-8weeks</p>
+    </div>
 
-    <div class="row">
-      <a href="/services/exclusive" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+    <div class="col-md-3">
+      <h4>Person Protection</h4>
+      <p>Inquire</p>
+    </div>
 
-        <h3>Exclusive Services</h3>
-      </a>
+    <div class="col-md-3">
+      <h4>Walking on a leash/leash reactivity</h4>
+      <p>$45</p>
     </div>
   </div>
+
 </section>
 
 @stop
