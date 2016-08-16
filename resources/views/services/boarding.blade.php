@@ -36,6 +36,19 @@
     </div>
   </div>
 
+  <div class="row descriptions">
+    <div class="col-md-12">
+      <h4>Boarding Add-On(s)</h4>
+      <p>30 minutes Bark Walk- $15(boarding rate)</p>
+      <p>Early Check In/Check Out $25 Holiday Pickup is $40</p>
+      <p>Photo Updates $3/day</p>
+      <p>Paw Wax $3/day</p>
+      <p>Administer Medications($2/day) Insulin/steroids injections $10/day</p>
+      <p>We proudly serve Fromms Gold line dog food $3/day</p>
+      <p><i>*Inquire about additional slumber upgrades*</i><p>
+    </div>
+  </div>
+
 </section>
 
 @stop
