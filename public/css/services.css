@@ -36,7 +36,8 @@
 }
 
 #boarding img {
-  top: -380px;
+  top: initial;
+  bottom: -200px;
 }
 
 @media(max-width:768px) {
@@ -49,7 +50,7 @@
   }
 
   #boarding img {
-    top: -55px;
+    top: -45px;
   }
 
   .banner {

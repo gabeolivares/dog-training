@@ -24,7 +24,7 @@
   <div class="services">
     <div class="row">
       <a href="/services/boarding" class="col-sm-12 col-md-6 service">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_2082,y_1314/v1471306982/services/boarding.jpg" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_fill,g_face,h_1280,w_1920/v1471329661/services/boarding.jpg" />
 
         <h3>Dog Boarding</h3>
       </a>
@@ -48,7 +48,7 @@
       </a>
 
       <a href="/services/exclusive" class="col-sm-12 col-md-6 service">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
 
         <h3>Exclusive Services</h3>
       </a>

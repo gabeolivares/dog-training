@@ -19,7 +19,7 @@
   <hr />
 
   <div id="boarding" class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_2082,y_1314/v1471306982/services/boarding.jpg" />
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_fill,g_face,h_1280,w_1920/v1471329661/services/boarding.jpg" />
   </div>
 
   <div class="row descriptions">
