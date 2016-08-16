@@ -22,6 +22,8 @@
     <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_fill,g_face,h_1280,w_1920/v1471329661/services/boarding.jpg" />
   </div>
 
+  <hr />
+
   <div class="row descriptions">
     <div class="col-md-6">
       <h4>Basic Slumber</h4>

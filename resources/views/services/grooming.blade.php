@@ -21,6 +21,8 @@
     <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1471305967/services/grooming.jpg" />
   </div>
 
+  <hr />
+
   <h3>Packages</h3>
   <div class="row descriptions">
     <div class="col-md-4">
