@@ -10,7 +10,7 @@
       <div class="inner">
           <h1 class="cursive">The Barkin' Bones Inn</h1>
           <h4>A happy place for your best friend</h4>
-          <hr>
+          <hr class="main-hr" />
           <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
       </div>
   </div>

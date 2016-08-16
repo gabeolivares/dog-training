@@ -9,13 +9,18 @@ body {
 
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #31AAD6;
+
     color: #CAFF38;
     webkit-tap-highlight-color: #CAFF38;
+    background-color: #31AAD6;
 }
 
 hr {
+    opacity: 0.55;
     max-width: 80px;
+}
+
+hr.main-hr {
     border-width: 3px;
     opacity: 0.09;
     margin-top: 15px;
@@ -99,7 +104,16 @@ img {
 }
 
 section {
-    padding: 50px 0;
+  text-align: center;
+  padding: 50px 0;
+
+  background:
+    url('/images/dog-paw.png') 2% 6% no-repeat,
+    url('/images/dog-paw.png') 98% 6% no-repeat,
+    url('/images/dog-paw.png') 2% 98% no-repeat,
+    url('/images/dog-paw.png') 98% 98% no-repeat;
+
+  background-size: 45px;
 }
 
 aside {
@@ -112,4 +126,29 @@ footer {
 
 .no-padding {
     padding: 0;
+}
+
+.paw {
+  width: 45px;
+  position: absolute;
+}
+
+#top-left-paw {
+  top: 10%;
+  left: 5%;
+}
+
+#top-right-paw {
+  top: 10%;
+  right: 5%;
+}
+
+#bottom-left-paw {
+  bottom: 10%;
+  left: 5%;
+}
+
+#bottom-right-paw {
+  bottom: 10%;
+  right: 5%;
 }

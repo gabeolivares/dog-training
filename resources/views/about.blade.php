@@ -25,7 +25,8 @@
     </p>
   </div>
 
-  <img src="http://www.awesomelycute.com/gallery/2014/12/dog-families-10.jpg" alt="About us image" />
+  <hr />
+  <!-- <img src="http://www.awesomelycute.com/gallery/2014/12/dog-families-10.jpg" alt="About us image" /> -->
 
   <div class="text">
     <h1>Meet The Crew</h1>
