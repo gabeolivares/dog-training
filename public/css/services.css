@@ -23,8 +23,28 @@
   border-radius: 12px;
 }
 
+.descriptions {
+  padding: 0 10%;
+}
+
+.descriptions h4 {
+  font-style: italic;
+}
+
+#grooming img {
+  top: -345px;
+}
+
 @media(max-width:768px) {
   .service {
     padding: 0;
+  }
+
+  #grooming img {
+    top: 0;
+  }
+
+  .banner {
+    padding-bottom: 0px;
   }
 }

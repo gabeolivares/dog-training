@@ -20,12 +20,12 @@ class ServicesController extends Controller
 
   public function grooming()
   {
-    return view('services.boarding');
+    return view('services.grooming');
   }
 
   public function training()
   {
-    return view('services.boarding');
+    return view('services.training');
   }
 
   public function exclusive()
