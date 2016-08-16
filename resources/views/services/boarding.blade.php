@@ -7,45 +7,33 @@
 @section('content')
 
 <section>
-  <div class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/a_auto_right/v1470973714/services/banner.jpg" />
-  </div>
-
   <div class="text">
-    <h1>Boarding Page</h1>
+    <h1>Dog Boarding</h1>
+
+    <p>
+      Dog boarding is tailor specifically for your dogs needs.
+      There are several options to chose from. This is an around the clock facility to dogs.
+    </p>
   </div>
 
-  <div class="services">
-    <div class="row">
-      <a href="/services/boarding" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
+  <hr />
 
-        <h3>Dog Boarding</h3>
-      </a>
+  <div id="boarding" class="banner">
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_2082,y_1314/v1471306982/services/boarding.jpg" />
+  </div>
 
-      <a href="/services/grooming" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
-
-        <h3>Grooming</h3>
-      </a>
-
-      <a href="/services/training" class="col-sm-12 col-md-4 service" href="/services/training">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
-
-        <h3>Training</h3>
-      </a>
+  <div class="row descriptions">
+    <div class="col-md-6">
+      <h4>Basic Slumber</h4>
+      <p>$35/night includes 4 potty breaks, feeding, and a cozy blanket to sleep on</p>
     </div>
 
-    <br />
-
-    <div class="row">
-      <a href="/services/exclusive" class="col-sm-12 col-md-4 service">
-        <img src="//pixabay.com/static/img/no_hotlinking.png" />
-
-        <h3>Exclusive Services</h3>
-      </a>
+    <div class="col-md-6">
+      <h4>Deluxe Slumber</h4>
+      <p>$45/night includes 4 potty breaks, Midday play, feeding, and a plush bed to sleep on, includes daily photo updates</p>
     </div>
   </div>
+
 </section>
 
 @stop

@@ -35,6 +35,10 @@
   top: -345px;
 }
 
+#boarding img {
+  top: -380px;
+}
+
 @media(max-width:768px) {
   .service {
     padding: 0;
@@ -42,6 +46,10 @@
 
   #grooming img {
     top: 0;
+  }
+
+  #boarding img {
+    top: -55px;
   }
 
   .banner {
