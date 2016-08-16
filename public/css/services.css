@@ -18,11 +18,12 @@
   margin-left: 5%;
 }
 
-.service {
-  text-align: center;
-  /*padding: 0;*/
-}
-
 .service img {
   border-radius: 12px;
+}
+
+@media(max-width:768px) {
+  .service {
+    padding: 0;
+  }
 }

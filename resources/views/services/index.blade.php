@@ -45,7 +45,7 @@
     <br />
 
     <div class="row">
-      <a href="/services/exclusive" class="col-sm-12 col-md-4 service">
+      <a href="/services/exclusive" class="col-sm-12 col-md-offset-4 col-md-4 service">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
 
         <h3>Exclusive Services</h3>
