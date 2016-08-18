@@ -25,24 +25,49 @@
   <hr />
 
   <div class="row descriptions">
-    <div class="col-md-3">
-      <h4>Bark-O-Fun(Doggy Daycare)</h4>
-      <p>$25/day</p>
-    </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 offer">
       <h4>Pet Taxi</h4>
-      <p>10-30 Round Trip(Rates are based off location) Taxi runs AM-Midday-PM</p>
+      <p>
+        The safest, most minimal str ess, and convenient way to get your dog to the 6 acre Resort.
+        We offer flexible commutes when pet guest come for daycare, grooming, training, and boarding.
+        <ul>
+          <li>Hutto/Georgetown $5</li>
+          <li>Round Rock $10 </li>
+          <li>Austin $20 </li>
+          <li>Cedar Park/Leander $15</li>
+        </ul>
+      </p>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 offer">
       <h4>BizzyBone</h4>
-      <p>Frozen stuffed goodie Kong $5</p>
+      <p>
+        Offering exclusive snacks during the day to keep dogs happy and mentally stimulated.
+        Choose from homemade frozen Peanut Butter yogurt, Pumpkin yogurt, or pupball(turkey &amp; carrots)
+        $5
+      </p>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 offer">
       <h4>30 minutes Bark Walk</h4>
-      <p>$15(boarding rate)</p>
+      <p>
+        Designed specifically for dogs needing just a little more alone time with the Inn team.
+        30 minutes walks are private walks through out the facility. Fresh water will be given throughout the walk.
+        $15
+      </p>
+    </div>
+
+    <div class="col-md-3 offer">
+      <h4>Midday Pawty Breaks</h4>
+      <p>
+        Work a long day? Unable to get home right after work to let your pup our for potty breaks and exercise?
+        We offer 30 minute midday drop ins for your pet to go potty, exercise, get afternoon feeding and/or medication, and more.
+        Hutto/Round Rock/Georgetown $20/visit
+        Austin/Cedar Park/Leander $25/visit
+
+        <i>*Ask about out monthly discounts*</i>
+      </p>
     </div>
   </div>
 

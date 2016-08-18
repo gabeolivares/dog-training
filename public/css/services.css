@@ -23,6 +23,13 @@
   border-radius: 12px;
 }
 
+.offer {
+  background-color: #37beef;
+  padding: 20px;
+  margin: 1px;
+  text-align: start;
+}
+
 .descriptions {
   padding: 0 10%;
 }
@@ -68,4 +75,16 @@
 
 .row {
   margin: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
