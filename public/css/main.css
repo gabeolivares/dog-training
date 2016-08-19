@@ -154,3 +154,9 @@ aside {
   bottom: 10%;
   right: 5%;
 }
+
+.price-change {
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 23px;
+}

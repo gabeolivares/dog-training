@@ -9,9 +9,9 @@
   <div class="header-content">
       <div class="inner">
           <h1 class="cursive">The Barkin' Bones Inn</h1>
-          <h4>A happy place for your best friend</h4>
+          <h4>It's a dogs world, make it fun!</h4>
           <hr class="main-hr" />
-          <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+          <!-- <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a> -->
       </div>
   </div>
   <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
