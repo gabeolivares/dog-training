@@ -32,4 +32,9 @@ class ServicesController extends Controller
   {
     return view('services.exclusive');
   }
+
+  public function daycare()
+  {
+    return view('services.daycare');
+  }
 }

@@ -53,6 +53,14 @@
         <h3>Exclusive Services</h3>
       </a>
     </div>
+
+    <div class="row">
+      <a href="/services/daycare" class="col-sm-12 col-md-offset-3 col-md-6 service" href="/services/training">
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
+
+        <h3>Bark-o-Fun Daycare</h3>
+      </a>
+    </div>
   </div>
 </section>
 
