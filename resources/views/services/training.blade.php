@@ -19,7 +19,7 @@
   <hr />
 
   <div id="training" class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,e_improve,h_1280,w_1920/v1471305894/services/training.jpg" />
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,h_1280,w_1920/v1471586815/services/training.jpg" />
   </div>
 
   <hr />

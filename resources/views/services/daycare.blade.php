@@ -36,7 +36,7 @@
 
 
   <div class="text">
-    <h3>Why Would My Dog Need Daycare?</h3>
+    <h2>Why Would My Dog Need Daycare?</h2>
     <p>
       Daycare is the best alternative to leaving your dog home alone.
       Dogs that are left at home lack the exercise and socialization that they need to be happy,
@@ -49,8 +49,8 @@
     </p>
   </div>
 
-  <h5 class="cursive price-change">*Multi-dog discount available*</h5>
-  <h5 class="cursive price-change">*All pets over 8 months must be spayed or neutered, pass screening, and temperament test*</h5>
+  <div class="price-change">*Multi-dog discount available*</div>
+  <div class="price-change">*All pets over 8 months must be spayed or neutered, pass screening, and temperament test*</div>
 
 </section>
 

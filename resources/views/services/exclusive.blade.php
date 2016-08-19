@@ -109,7 +109,7 @@
     </div>
   </div>
 
-  <div class="cursive price-change">*Prices are subject to change without notice*</div>
+  <div class="price-change">*Prices are subject to change without notice*</div>
 </section>
 
 @stop
