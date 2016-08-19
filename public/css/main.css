@@ -160,3 +160,12 @@ aside {
   margin-top: 20px;
   font-size: 16px;
 }
+
+.footer-images {
+    margin: 20px;
+}
+
+.footer-images img {
+  width: 100px;
+  margin-left: 35px;
+}

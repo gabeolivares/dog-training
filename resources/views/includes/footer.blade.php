@@ -1,4 +1,12 @@
 <div class="footer">
+  <div class="row footer-images">
+    
+    <img src="http://res.cloudinary.com/thebarkinbonesinn/image/upload/v1471587249/certification-4_skz5kz.png" />
+    <img src="http://res.cloudinary.com/thebarkinbonesinn/image/upload/v1471587249/certification-3_ts3sog.jpg" />
+    <img src="http://res.cloudinary.com/thebarkinbonesinn/image/upload/v1471587249/certification-2_boyi72.jpg" />
+    <img src="http://res.cloudinary.com/thebarkinbonesinn/image/upload/v1471587249/certification-1_direkq.jpg" />
+  </div>
+
   <div id="copyright text-right">© Copyright 2016 The Barkin' Bones Inn</div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
