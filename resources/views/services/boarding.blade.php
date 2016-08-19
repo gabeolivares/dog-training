@@ -25,26 +25,41 @@
   <hr />
 
   <div class="row descriptions">
-    <div class="col-md-6">
-      <h4>Basic Slumber</h4>
-      <p>$35/night includes 4 potty breaks, feeding, and a cozy blanket to sleep on</p>
+
+    <div class="col-md-offset-3 col-md-3 offer">
+      <h3>Overnight Slumber - $35/Night</h3>
+
+      <div>
+        <ul><li></li></ul>
+      </div>
+
+      <p>4 potty breaks</p>
+      <p>Feeding</p>
+      <p>Cozy blanket to sleep on</p>
     </div>
 
-    <div class="col-md-6">
-      <h4>Deluxe Slumber</h4>
-      <p>$45/night includes 4 potty breaks, Midday play, feeding, and a plush bed to sleep on, includes daily photo updates</p>
+    <div class="col-md-3 offer">
+      <h3>Premium Slumber - <span>$45/Night</spn></h3>
+
+      <p>4 potty breaks</p>
+      <p>Midday play</p>
+      <p>Feeding</p>
+      <p>Plush bed to sleep on</p>
+      <p>Daily photo updates</p>
     </div>
   </div>
 
   <div class="row descriptions">
-    <div class="col-md-12">
-      <h4>Boarding Add-On(s)</h4>
-      <p>30 minutes Bark Walk- $15(boarding rate)</p>
-      <p>Early Check In/Check Out $25 Holiday Pickup is $40</p>
-      <p>Photo Updates $3/day</p>
-      <p>Paw Wax $3/day</p>
-      <p>Administer Medications($2/day) Insulin/steroids injections $10/day</p>
-      <p>We proudly serve Fromms Gold line dog food $3/day</p>
+    <div class="col-md-offset-4 col-md-4 offer">
+      <h3>Boarding Add-On(s)</h3>
+
+      <p>30 minutes Bark Walk - $15 (Boarding Rate)</p>
+      <p>Early Check In/Check Out - $25 (Holiday Pickup - $40)</p>
+      <p>Photo Updates - $3/day</p>
+      <p>Paw Wax - $3/day</p>
+      <p>Administer Medications - $2/day</p>
+      <p>Insulin/Steroids Injections - $10/day</p>
+      <p>We proudly serve Fromms Gold line dog food - $3/day</p>
       <p><i>*Inquire about additional slumber upgrades*</i><p>
     </div>
   </div>

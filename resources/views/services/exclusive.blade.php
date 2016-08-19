@@ -66,7 +66,7 @@
       <div>
         <span>Rate:</span>
 
-        <ul><li>$15</li></ul>
+        <ul><li>$25</li></ul>
       </div>
     </div>
   </div>
