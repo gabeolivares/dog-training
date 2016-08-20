@@ -29,7 +29,7 @@
       <h3>Homemade Organic Rinse</h3>
       <p>A homemade rinse to clean and moisturize coat and skin</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$12-$18 depending on length of coat</li></ul>
@@ -40,7 +40,7 @@
       <h3>Original Spa Package</h3>
       <p>Homemade shampoo scrub, blow dry, &amp; brush</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$25-$35 based of coat length</li></ul>
@@ -54,7 +54,7 @@
         nail grind, blow dry, deshed, soft brush, and nose and paw moisturizer
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>45-$60 based of coat length</li></ul>
@@ -65,7 +65,7 @@
       <h3>Ear &amp; Paw Package</h3>
       <p>This consist of Nail grinding + Ear cleaning</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$20</li></ul>
@@ -81,7 +81,7 @@
       <h3>Dry Brushing</h3>
       <p>For dogs needing extra brushing this can be added to spa package</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$10 deep brushing without bath</li></ul>
@@ -92,7 +92,7 @@
       <h3>Wrinkle Maintenance</h3>
       <p>Tailored for bulldogs, Boston Terriers, Pugs, Sharpei's, Mastiffs, Boxers, etc</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$5 wipe facial/body wrinkles</li></ul>
@@ -103,7 +103,7 @@
       <h3>Skunk Bath</h3>
       <p>Got a very smelly buddy? We'll make sure they smelly peachy clean</p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$40-$70 based off size and coat condition</li></ul>
@@ -112,8 +112,6 @@
   </div>
 
   <div class="row descriptions">
-
-
     <div class="col-md-offset-4 col-md-2 offer">
       <h3>Nail Grind</h3>
       <p>$15 (up-charge for longer nails)</p>

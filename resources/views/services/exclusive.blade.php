@@ -33,7 +33,7 @@
 
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$5</li></ul>
@@ -48,7 +48,7 @@
         Voyages last 3-5 hours.
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
         <ul>
           <li>Starts @ $25/voyage</li>
@@ -63,7 +63,7 @@
         30 minutes walks are private walks through out the facility. Fresh water will be given throughout the walk.
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
 
         <ul><li>$25</li></ul>
@@ -79,7 +79,7 @@
         We offer 30 minute midday drop ins for your pet to go potty, exercise, get afternoon feeding and/or medication, and more.
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
         <ul>
           <li>Hutto/Round Rock/Georgetown $20/visit</li>
@@ -97,7 +97,7 @@
         We offer flexible commutes when pet guest come for daycare, grooming, training, and boarding.
       </p>
 
-      <div>
+      <div class="rate">
         <span>Rate:</span>
         <ul>
           <li>Hutto/Georgetown $5</li>
