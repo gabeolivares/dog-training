@@ -77,7 +77,7 @@
 
   <h2>Stand Alone Services</h2>
   <div class="row descriptions">
-    <div class="col-md-offset-1 col-md-5 offer">
+    <div class="col-md-4 offer">
       <h3>Dry Brushing</h3>
       <p>For dogs needing extra brushing this can be added to spa package</p>
 
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div class="col-md-5 offer">
+    <div class="col-md-4 offer">
       <h3>Wrinkle Maintenance</h3>
       <p>Tailored for bulldogs, Boston Terriers, Pugs, Sharpei's, Mastiffs, Boxers, etc</p>
 
@@ -96,6 +96,17 @@
         <span>Rate:</span>
 
         <ul><li>$5 wipe facial/body wrinkles</li></ul>
+      </div>
+    </div>
+
+    <div class="col-md-4 offer">
+      <h3>Skunk Bath</h3>
+      <p>Got a very smelly buddy? We'll make sure they smelly peachy clean</p>
+
+      <div>
+        <span>Rate:</span>
+
+        <ul><li>$40-$70 based off size and coat condition</li></ul>
       </div>
     </div>
   </div>
