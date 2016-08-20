@@ -47,18 +47,18 @@
         <h3>Training</h3>
       </a>
 
-      <a href="/services/exclusive" class="col-sm-12 col-md-6 service">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
+      <a href="/services/daycare" class="col-sm-12 col-md-6 service" href="/services/training">
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/daycare.jpg" />
 
-        <h3>Exclusive Services</h3>
+        <h3>Bark-o-Fun Daycare</h3>
       </a>
     </div>
 
     <div class="row">
-      <a href="/services/daycare" class="col-sm-12 col-md-offset-3 col-md-6 service" href="/services/training">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
+      <a href="/services/exclusive" class="col-sm-12 col-md-offset-3 col-md-6 service">
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_pad,h_1280,w_1920/v1471669553/services/exclusive.jpg" />
 
-        <h3>Bark-o-Fun Daycare</h3>
+        <h3>Exclusive Services</h3>
       </a>
     </div>
   </div>
