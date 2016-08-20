@@ -162,7 +162,7 @@ aside {
 }
 
 .footer-images {
-    margin: 20px;
+    margin: 20px !important;
 }
 
 .footer-images img {
