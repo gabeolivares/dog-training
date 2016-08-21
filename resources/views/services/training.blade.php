@@ -158,11 +158,13 @@
     </div>
   </div>
 
-  <!-- <div class="price-change">
-    *Please note that all of our training is "new innovation". We do not use choke collars,
-    prong collars, shock/vibration collars, "alpha approaches", domination, or any physical
-    threat to any dog for any duration at any time during training or any other service we offer.
-  </div> -->
+  <div class="row descriptions">
+    <div class="col-md-12 price-change">
+      *Please note that all of our training is "new innovation". We do not use choke collars,
+      prong collars, shock/vibration collars, "alpha approaches", domination, or any physical
+      threat to any dog for any duration at any time during training or any other service we offer.
+    </div>
+  </div>
 
 </section>
 
