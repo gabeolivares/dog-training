@@ -29,6 +29,11 @@
   text-align: start;
   border: 1px solid #31aad6;
   display: table-cell;
+  border-radius: 12px;
+}
+
+.offer > ul {
+  color: #eee;
 }
 
 .rate ul {
@@ -84,7 +89,7 @@
   }
 
   .descriptions {
-    display: inline-block;;
+    display: inline-block;
   }
 }
 
