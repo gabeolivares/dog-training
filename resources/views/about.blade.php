@@ -1,17 +1,10 @@
 @extends('layout')
 
-@section('header')
-<!-- Load specific CSS  -->
+@section('head')
+<link rel="stylesheet" href="/css/about.css">
 @stop
 
 @section('content')
-
-<style>
-  .team-info {
-    padding: 40px 30px 10px 30px;    
-  }
-</style>
-
 <section>
   <div class="text">
     <h1>About Our Facility</h1>
@@ -31,8 +24,8 @@
   <div class="text">
     <h1>Meet The Crew</h1>
 
-    <div class="row">
-      <div class="col-md-6 team-info bg-dark">
+    <div class="row about">
+      <div class="col-md-6 team-info">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604826/contact/candi.jpg" al="Candi" />
 
         <h3>Candi-La'Rue Smith- Owner</h4>
@@ -48,7 +41,7 @@
         </p>
       </div>
 
-      <div class="col-md-6 team-info bg-dark">
+      <div class="col-md-6 team-info">
         <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604828/contact/stephanie.jpg" al="Stephanie" />
 
         <h3>Stephanie Fletcher-Performance Manager</h4>
