@@ -3,7 +3,7 @@
 
     var URL = '//res.cloudinary.com/thebarkinbonesinn/image/upload';
 
-    var buildImageHtml = (imageData, idx) => {
+    var buildImageHtml = function(imageData, idx) {
       var $col = $('<div class="col-lg-4 col-sm-6"></div>');
       var $a = $('<a href="#galleryModal" class="gallery-box" data-toggle="modal"></a>');
       var $img = $('<img class="img-responsive" alt="Image ' + idx + '"/>');
