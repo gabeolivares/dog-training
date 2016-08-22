@@ -1,10 +1,9 @@
 (function($) {
     "use strict";
 
-    $('form').submit(function(event) {
+    $('#contact-form').submit(function(event) {
       console.log("submitting stuff");
 
-console.debug($(this).find('input'));
       var formData = {
            'first_name'    : $(this).find('input[name=first_name]').val(),
            'last_name'     : $(this).find('input[name=last_name]').val(),

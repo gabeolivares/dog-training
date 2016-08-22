@@ -4,48 +4,44 @@ div, textarea, input {
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 510px;
-  min-width: 324px;
-  margin: 50px auto 0px;
-  background-color: #fff;
-  border: 1px solid #cfcfcf;
-  border-bottom: 3px solid #ccc;
+p {
+  text-align: justify;
+}
+
+.operating-hours {
+  color: #eee;
+}
+
+.operating-hours .header {
+  color: #CAFF38;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact ul {
+  /*color: #eee;*/
+  list-style: none;
+}
+
+.cblock {
+  background-color: #37beef;
+  padding: 20px;
+  text-align: start;
+  border: 1px solid #31aad6;
+  display: table-cell;
+  border-radius: 12px;
 }
 
 .row {
-  width: 100%;
   margin: 0 0 1em 0;
   padding: 0 2.5em;
-}
-.row.header {
-  padding: 1.5em 2.5em;
-  border-bottom: 1px solid #ccc;
-  background: url(http://niiiick.com/files/blur-city-1.jpg) left -80px;
-  color: #fff;
-}
-.row.body {
-  padding: .5em 2.5em 1em;
 }
 
 .pull-right {
   float: right;
-}
-
-h1 {
-  font-weight: 300;
-  display: inline-block;
-  font-weight: 100;
-  font-size: 2.8125em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 0 0 0.1em 0;
-  padding: 0 0 0.4em 0;
-}
-
-h3 {
-  font-weight: 400;
-  font-size: 1.25em;
-  margin: 1em 0 0.4em 0;
 }
 
 .btn {
@@ -74,42 +70,12 @@ h3 {
 }
 
 form {
+  height: 100%;
   max-width: 100%;
   display: block;
-}
-form ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-form ul li {
-  margin: 0 0 0.25em 0;
-  clear: both;
-  display: inline-block;
-  width: 100%;
-}
-form ul li:last-child {
-  margin: 0;
-}
-form ul li p {
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-form ul li p.right {
-  float: right;
-}
-form ul li .divider {
-  margin: 0.5em 0 0.5em 0;
-  border: 0;
-  height: 1px;
-  width: 100%;
-  display: block;
-  background-color: #4f6fad;
-  background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
-}
-form ul li .req {
-  color: #ee9cb4;
+  padding: 10px 15px;
+  /*background-color: #fff;
+  border: 1px solid #cfcfcf;*/
 }
 form label {
   display: block;
@@ -123,6 +89,7 @@ form input {
   padding: 6px 10px;
   color: #555;
   font-size: 1em;
+  width: 100%;
 }
 form textarea {
   border: 1px solid #ccc;
@@ -136,8 +103,24 @@ form small {
 }
 
 @media only screen and (max-width: 480px) {
+  .cblock {
+    text-align: center;
+  }
+
+  .row {
+    padding: 0;
+  }
+
+  .contact {
+    display: inline-block;
+  }
+
   .pull-right {
     float: none;
+  }
+
+  form {
+    padding: 0px;
   }
 
   input {
