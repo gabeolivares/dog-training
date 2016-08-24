@@ -61,7 +61,7 @@
       <h3 class="center">Boarding Add-On(s)</h3>
 
       <p>30 minutes Bark Walk - <b>$15 (Boarding Rate)</b></p>
-      <p>Early Check In/Check Out - <b>$25 (Holiday Pickup - $40)</b></p>
+      <p>Early Check In/Late Check Out - <b>$25 (Holiday Pickup - $40)</b></p>
       <p>Photo Updates - <b>$3/day</b></p>
       <p>Paw Wax - <b>$3/day</b></p>
       <p>Administer Medications - <b>$2/day</b></p>
