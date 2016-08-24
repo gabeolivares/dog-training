@@ -169,3 +169,7 @@ aside {
   width: 100px;
   margin-left: 35px;
 }
+
+.no-margin {
+  margin: 0;
+}

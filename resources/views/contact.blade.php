@@ -20,7 +20,7 @@
         <div class="col-md-12">
           <div class="row operating-hours">
             <div class="col-md-12 col-sm-12 cblock">
-              <h3 class="header">OPENNING HOURS</h3>
+              <h3 class="header">LOBBY HOURS</h3>
               <br />
               <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -99,18 +99,25 @@
       </div>
 
     </div>
-    
+
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <p>
-            We promote a healthy environment and want our dogs in our care to go home healthy.
-            Therefore the vaccination(s) required are:
-            <b>Rabies, Distemper, Bordetella.</b>
-            <br />
-            Flea/Tick Preventative is not required but Highly recommended.
+          <p class="no-margin">
+            WWe promote a healthy environment to all dogs in our care and want them to
+            go home just as healthy. To uphold health, the following vaccinations required are:
           </p>
-          <div class="price-chage">*Note if fleas are found at check-in a mandatory flea bath and flea treatment will be given for $30/additional - regardless of dog size*</div>
+          <ul class="normal-ul">
+            <li>Rabies - 1 and 3 year vaccination is excepted</li>
+            <li>DHLPP(Distemper) - 1 and 3 year vaccination is excepted</li>
+            <li>Bordetella(Kennel Cough) - 6 month and 1 year vaccination is excepted</li>
+          </ul>
+          <p>Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
+
+          <div class="price-chage">
+            *Note if fleas are found on pet guests at check-in, 
+            a mandatory flea bath and flea treatment will be given for $35/additional - regardless of dog size*
+          </div>
           <br />
           <img alt="Contact Image" src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1471804350/contact/happy.jpg" />
           <br />
