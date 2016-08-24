@@ -19,7 +19,7 @@
   <hr />
 
   <div id="exclusive" class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/exclusive.jpg" />
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,h_1280,w_1920/v1472003899/services/exclusive.jpg" />
   </div>
 
   <hr />

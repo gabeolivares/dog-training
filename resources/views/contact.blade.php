@@ -104,7 +104,7 @@
       <div class="row">
         <div class="col-md-12">
           <p class="no-margin">
-            WWe promote a healthy environment to all dogs in our care and want them to
+            We promote a healthy environment to all dogs in our care and want them to
             go home just as healthy. To uphold health, the following vaccinations required are:
           </p>
           <ul class="normal-ul">
@@ -115,7 +115,7 @@
           <p>Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
 
           <div class="price-chage">
-            *Note if fleas are found on pet guests at check-in, 
+            *Note if fleas are found on pet guests at check-in,
             a mandatory flea bath and flea treatment will be given for $35/additional - regardless of dog size*
           </div>
           <br />

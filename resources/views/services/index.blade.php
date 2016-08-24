@@ -48,7 +48,7 @@
       </a>
 
       <a href="/services/daycare" class="col-sm-12 col-md-6 service" href="/services/training">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/daycare.jpg" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_460,y_1500/v1472003048/services/daycare.jpg" />
 
         <h3>Bark-o-Fun Daycare</h3>
       </a>
@@ -56,7 +56,7 @@
 
     <div class="row">
       <a href="/services/exclusive" class="col-sm-12 col-md-offset-3 col-md-6 service">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_pad,h_1280,w_1920/v1471669553/services/exclusive.jpg" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,h_1280,w_1920/v1472003899/services/exclusive.jpg" />
 
         <h3>Exclusive Services</h3>
       </a>

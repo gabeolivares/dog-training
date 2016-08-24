@@ -29,7 +29,7 @@
   <hr />
 
   <div id="daycare" class="banner">
-    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_scale,w_1920/v1471329664/services/daycare.jpg" />
+    <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/c_crop,h_1280,w_1920,x_460,y_1500/v1472003048/services/daycare.jpg" />
   </div>
 
   <hr />

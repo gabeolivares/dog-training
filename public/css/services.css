@@ -62,6 +62,14 @@
   top: -210px;
 }
 
+#daycare img {
+  top: -325px;
+}
+
+#exclusive img {
+  top: -150px;
+}
+
 @media(max-width:768px) {
   .service {
     padding: 0;
@@ -76,6 +84,14 @@
   }
 
   #training img {
+    top: 0;
+  }
+
+  #daycare img {
+    top: 0;
+  }
+
+  #exclusive img {
     top: 0;
   }
 
