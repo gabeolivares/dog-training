@@ -101,7 +101,10 @@
 
     <div class="col-md-4 offer">
       <h3>Skunk Bath</h3>
-      <p>Got a very smelly buddy? We'll make sure they smelly peachy clean</p>
+      <p>
+        Dogs will be dogs, we offer mobile grooming to deskunk your dog and eliminate
+        him/her from polluting your vehicle. Rates are based on length of hair and coat stock/condition
+      </p>
 
       <div class="rate">
         <span>Rate:</span>
