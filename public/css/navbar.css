@@ -112,6 +112,29 @@
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #CAFF38;
     }
+    .navbar-default.affix .navbar-collapse > ul.nav li.dropdown:hover > ul.dropdown-menu {
+        background-color: #8431D6;
+    }
+
+    .navbar-default.affix .navbar-collapse > ul.nav li.dropdown:hover > ul.dropdown-menu>li>a {
+        color: #FFF;
+    }
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+        background-color: #31AAD6;
+    }
+    ul.nav li.dropdown:hover > ul.dropdown-menu>li>a:focus:hover  {
+        display: block;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        background-color: #31AAD6;
+        color: rgba(202,255,56,0.8);
+    }
+    .navbar-default.affix .navbar-collapse > ul.nav li.dropdown:hover > ul.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        background-color: #8431D6;
+        color: #CAFF38;
+
+    }
 }
 
 header {
