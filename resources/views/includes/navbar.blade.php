@@ -13,9 +13,16 @@
             <ul class="nav navbar-nav">
                 <li>
                     <a class="page-scroll" href="/">Home</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/services">Services</a>
+                </li>                
+                <li class="dropdown">
+                  <a href="/services" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/services/boarding">Dog Boarding</a></li>
+                    <li><a href="/services/grooming">Grooming</a></li>
+                    <li><a href="/services/training">Training</a></li>
+                    <li><a href="/services/daycare">Bark-o-Fun Daycare</a></li>
+                    <li><a href="/services/exclusive">Exclusive</a></li>
+                  </ul>
                 </li>
                 <li>
                     <a class="page-scroll" href="/gallery">Gallery</a>
