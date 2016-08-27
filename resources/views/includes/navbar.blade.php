@@ -13,7 +13,7 @@
             <ul class="nav navbar-nav">
                 <li>
                     <a class="page-scroll" href="/">Home</a>
-                </li>                
+                </li>
                 <li class="dropdown">
                   <a href="/services" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -29,6 +29,9 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="/contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/submit-review">Submit Review</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

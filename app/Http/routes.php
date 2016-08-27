@@ -4,6 +4,7 @@ Route::get('/', 'MainController@index');
 Route::get('/about', 'MainController@about');
 Route::get('/services', 'ServicesController@index');
 Route::get('/gallery', 'MainController@gallery');
+Route::get('/submit-review', 'MainController@review');
 
 Route::get('/services/boarding', 'ServicesController@boarding');
 Route::get('/services/grooming', 'ServicesController@grooming');

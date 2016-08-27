@@ -27,4 +27,9 @@ class MainController extends Controller
   {
     return view('gallery');
   }
+
+  public function review()
+  {
+    return view('review');
+  }
 }
