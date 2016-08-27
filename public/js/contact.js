@@ -15,7 +15,7 @@
       {
         $.post('/contact/send', formData)
           .success(function(data) {
-            $form.find('input, textarea').val('');
+            $form.find('input, textarea').not('input[type="submit"]').val('');
             $form.find('.alert-success').show();
           })
           .error(function(data) {
