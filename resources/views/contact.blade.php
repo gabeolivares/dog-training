@@ -94,6 +94,21 @@
                 <input class="btn btn-submit" type="submit" value="Submit" />
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="alert alert-success fade in" style="display:none">
+                  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Email Sent!</strong>
+                </div>
+
+
+                <div class="alert alert-danger fade in" style="display:none">
+                  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Error!</strong> Something weird occurred, please try again later.
+                </div>
+              </div>
+            </div>
           </form>
         </div>
       </div>
