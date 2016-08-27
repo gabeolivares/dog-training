@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
+use Mailgun\Mailgun;
 
 class ContactController extends Controller
 {
@@ -20,14 +20,17 @@ class ContactController extends Controller
       ]);
 
       $input = $request->input();
-      // $input['email'];
-      // $input['first_name'];
-      // $input['last_name'];
-      // $input['comments'];
-      
-      // TODO - Setup mailgun
-      // TODO - Send validate email and message
-      // TODO - Send email via mailgun
+
+      $fullName = $input['first_name'] . " " . $input['last_name'];
+      $mg = new Mailgun(env('MAILGUN_API_KEY'));
+      $domain = 'thebarkinbonesinn.com';
+
+      $mg->sendMessage($domain, [
+        'from'    => $input['email'],
+        'to'      => 'thebarkinbonesinn@gmail.com',
+        'subject' => $fullName . ' - New Contact',
+        'text'    => $input['comments']
+      ]);
 
       return ['status' => 'success', 'message' => 'Your email has been sent!'];
     }
