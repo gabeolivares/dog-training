@@ -1,5 +1,11 @@
 <meta charset="utf-8">
-<meta name="description" content="">
+<meta name="keywords" content="dog training tips, dog training classes, boarding, a dog grooming, pet training">
+<meta name="description" content="The Barkin' Bones Inn offers an astounding 261,360 sqft facility dedicated solely to dogs.
+With several secured play yards, all dogs are bound to have a bark-worthy good time.
+From water yards, tug-a-war, play tag, shuffling, sniffing, sunbathing, jumping, and romping with toys
+we have amenities to fit any character and personality of dog.
+We tailor to specific needs of dogs whether its a senior dog that enjoys shady walks to young puppies
+that want to run, run, run.">
 <meta name="author" content="The Barkin' Bones Inn">
 <meta name="viewport" content="width-device-width,initial-scale=1.0">
 <meta name="csrf-token" content="{{ csrf_token() }}">

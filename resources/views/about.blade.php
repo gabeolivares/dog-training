@@ -26,7 +26,7 @@
 
     <div class="row about">
       <div class="col-md-6 team-info">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604826/contact/candi.jpg" al="Candi" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604826/contact/candi.jpg" alt="Candi Owner" />
 
         <h3>Candi-La'Rue Smith- Owner</h4>
         <p>
@@ -42,7 +42,7 @@
       </div>
 
       <div class="col-md-6 team-info">
-        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604828/contact/stephanie.jpg" al="Stephanie" />
+        <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1470604828/contact/stephanie.jpg" alt="Stephanie" />
 
         <h3>Stephanie Fletcher-Performance Manager</h4>
         <p>
