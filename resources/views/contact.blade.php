@@ -90,7 +90,7 @@
 
             <div class="row">
               <div class="col-md-12">
-                <input class="btn btn-submit" type="submit" value="Submit" />
+                <input class="btn btn-submit contact-btn" type="submit" value="Submit" />
               </div>
             </div>
           </form>
@@ -102,7 +102,7 @@
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <p class="no-margin">
+          <p class="contact-p no-margin">
             We promote a healthy environment to all dogs in our care and want them to
             go home just as healthy. To uphold health, the following vaccinations required are:
           </p>
@@ -111,7 +111,7 @@
             <li>DHLPP(Distemper) - 1 and 3 year vaccination is excepted</li>
             <li>Bordetella(Kennel Cough) - 6 month and 1 year vaccination is excepted</li>
           </ul>
-          <p>Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
+          <p class="contact-p">Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
 
           <div class="price-chage">
             *Note if fleas are found on pet guests at check-in,
@@ -120,7 +120,7 @@
           <br />
           <img alt="Contact Image" src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1471804350/contact/happy.jpg" />
           <br />
-          <p>
+          <p class="contact-p">
             Unlike other pet care options, come rain or shine, 365 days a year, we always have staff
             here caring for our furry guests in our state-of-the-art, secure facility.
             However, during select holidays we give our front desk staff well-deserved time

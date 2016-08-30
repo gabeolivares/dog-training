@@ -4,7 +4,7 @@
 @stop
 
 @section('content')
-<section>
+<section id="review">
   <h1>Submit Reviews</h1>
 </section>
 @stop

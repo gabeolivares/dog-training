@@ -5,7 +5,7 @@
 
 @section('content')
 
-<section>
+<section id="services">
   <div class="text">
     <h1>Bark-o-Fun Daycare</h1>
 
