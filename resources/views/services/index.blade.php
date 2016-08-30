@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/services.css">
 @stop
 
 @section('content')

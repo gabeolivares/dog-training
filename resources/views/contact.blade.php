@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/contact.css">
 @stop
 
 @section('content')

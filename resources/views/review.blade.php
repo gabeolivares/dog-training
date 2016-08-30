@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/review.css">
 @stop
 
 @section('content')
