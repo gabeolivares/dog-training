@@ -10,6 +10,8 @@ p {
 
 .operating-hours {
   color: #eee;
+  margin: 0 0 1em 0 !important;
+  padding: 0 1.5em !important;
 }
 
 .operating-hours .header {

@@ -10,5 +10,4 @@
 @stop
 
 @section('footer')
-<script src="/js/submit-review.js"></script>
 @stop

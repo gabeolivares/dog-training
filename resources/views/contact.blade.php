@@ -144,5 +144,4 @@
 @stop
 
 @section('footer')
-<script src="/js/contact.js"></script>
 @stop
