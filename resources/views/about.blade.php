@@ -1,11 +1,10 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/about.css">
 @stop
 
 @section('content')
-<section>
+<section id="about">
   <div class="text">
     <h1>About Our Facility</h1>
     <p>

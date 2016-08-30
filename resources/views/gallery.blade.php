@@ -30,5 +30,4 @@
 @stop
 
 @section('footer')
-<script src="/js/gallery.js"></script>
 @stop

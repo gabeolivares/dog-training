@@ -1,12 +1,11 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/services.css">
 @stop
 
 @section('content')
 
-<section>
+<section id="services">
   <!-- <div class="banner">
     <img src="//res.cloudinary.com/thebarkinbonesinn/image/upload/a_auto_right/v1470973714/services/banner.jpg" />
   </div> -->
