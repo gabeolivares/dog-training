@@ -36,7 +36,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="/about">About</a>
+                    <a class="page-scroll" title="" href="/about">About</a>
                 </li>
             </ul>
         </div>

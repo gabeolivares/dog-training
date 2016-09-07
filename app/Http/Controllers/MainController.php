@@ -28,8 +28,13 @@ class MainController extends Controller
     return view('gallery');
   }
 
-  public function review()
+  public function submitReview()
   {
-    return view('review');
+    return view('submit-review');
+  }
+
+  public function reviews()
+  {
+    return view('reviews');
   }
 }

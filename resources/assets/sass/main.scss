@@ -177,3 +177,16 @@ aside {
 .center {
   text-align: center;
 }
+
+.auth-link {
+  font-size: 10px;
+  
+  a {
+    padding: 0 5px;
+    cursor: pointer;
+  }
+}
+
+.logged-in {
+  display: none;
+}
