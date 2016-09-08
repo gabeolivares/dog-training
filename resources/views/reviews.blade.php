@@ -1,67 +1,132 @@
 @extends('layout')
 
 @section('head')
-
-  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-
-
 @stop
 
 @section('content')
 <section id="review">
+  <div id="reviews-container" style="display: none;">
+    <table class="table">
+      <thead>
+        <tr>
+          <td>Image</td>
+          <td>Full Name</td>
+          <td>Message</td>
+          <td>Rating</td>
+          <td>Reviewed On</td>
+          <td>-</td>
+        </tr>
+      </thead>
 
-  <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <tbody>
+      </tbody>
+    </table>
 
-    <!-- Header section containing title -->
-    <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
-      <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-        <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
-          <a href="/"><h3>Firebase Authentication</h3></a>
-        </div>
-      </div>
-    </header>
-
-    <main class="mdl-layout__content mdl-color--grey-100">
-      <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-
-        <!-- Container for the demo -->
-        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-          <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
-            <h2 class="mdl-card__title-text">Firebase Email &amp; Password Authentication</h2>
-          </div>
-          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-            <p>Enter an email and password below and either sign in to an existing account or sign up</p>
-
-            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email" placeholder="Email"/>
-            &nbsp;&nbsp;&nbsp;
-            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password" name="password" placeholder="Password"/>
-            <br/><br/>
-            <button disabled class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in" name="signin">Sign In</button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-up" name="signup">Sign Up</button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-button--raised" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
-            &nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
-
-            <!-- Container where we'll display the user details -->
-            <div class="quickstart-user-details-container">
-              Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
-              <div>Firebase auth <code>currentUser</code> object value:</div>
-              <pre><code id="quickstart-account-details">null</code></pre>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </main>
   </div>
 
-
+  <div id="no-reviews">
+    <h2>There are currently no reviews.</h2>
+  </div>
 </section>
 @stop
 
 @section('footer')
+<script>
+var database, reviewsRef;
+
+var buildData = function(key)
+{
+  var $columns = $('#' + key).find('td:not(".buttons")');
+  var data = {};
+
+  $columns.each(function(i, item) {
+    var key = $(item).data('key');
+    var val = $(item).html();
+    if ( key === 'rating' ){
+      val = $(item).find('input[name=rating]:checked').val()
+    }
+
+    data[key] = val;
+  });
+
+  return data;
+}
+
+function deleteReview(key)
+{
+  database.ref('/reviews/' + key).delete().then(function() {
+    $('#' + key).remove();
+
+    if( $('#reviews-container').find('tbody tr').length == 0 )
+    {
+      $('#reviews-container').hide();
+      $('#no-reviews').show();
+    }
+  });
+}
+
+function approveReview(key)
+{
+  var data = buildData(key);
+  data['approved'] = true;
+
+  database.ref('/reviews/' + key).update(data).then(function() {
+    $('#' + key).find('button.approve').remove();
+  });
+}
+
+var renderReview = function(data)
+{
+  $('#no-reviews').hide();
+
+  var $reviewsContainer = $('#reviews-container');
+  $reviewsContainer.show();
+
+  var review = data.val();
+
+  var buttons = '<button class="btn btn-danger remove" onclick="deleteReview(\'' + data.key + '\')">X Remove</button>';
+  if( review.approved !== true )
+  {
+    buttons += '<button class="btn btn-success approve" onclick="approveReview(\'' + data.key + '\')">+ Approve</button>';
+  }
+
+  var html =
+    '<tr id="' + data.key + '">' +
+      '<td data-key="image">' + review.image + '</td>' +
+      '<td data-key="fullName">' + review.fullName + '</td>' +
+      '<td data-key="message">' + review.message + '</td>' +
+      '<td data-key="rating" class="rating-column">' +
+        '<fieldset class="rating">' +
+          '<input type="radio" name="rating" value="5" ' + (review.rating == 5 ? 'checked' : '') + '/><label for="star5" title="Rocks!">5 stars</label>' +
+          '<input type="radio" name="rating" value="4" ' + (review.rating == 4 ? 'checked' : '') + '/><label for="star4" title="Pretty good">4 stars</label>' +
+          '<input type="radio" name="rating" value="3" ' + (review.rating == 3 ? 'checked' : '') + '/><label for="star3" title="Meh">3 stars</label>' +
+          '<input type="radio" name="rating" value="2" ' + (review.rating == 2 ? 'checked' : '') + '/><label for="star2" title="Kinda bad">2 stars</label>' +
+          '<input type="radio" name="rating" value="1" ' + (review.rating == 1 ? 'checked' : '') + '/><label for="star1" title="Sucks big time">1 star</label>' +
+        '</fieldset>' +
+      '</td>' +
+      '<td data-key="reviewed_on">' + review.reviewed_on + '</td>' +
+      '<td class="buttons">' + buttons + '</td>' +
+    '</tr>';
+
+  $reviewsContainer.find('tbody').append(html);
+};
+
+$(document).ready(function() {
+  database = firebase.database();
+  reviewsRef = database.ref('reviews');
+
+  reviewsRef.on('child_added', renderReview);
+
+  // Create new review via ajax
+  // var data = {
+  //   fullName: 'John Doe',
+  //   message: 'This person is very good, love her!'
+  // };
+  //
+  // var newKey = database.ref().child('reviews').push().key;
+  //
+  // // this returns a promise
+  // var review = database.ref('/reviews/' + newKey).set(data);
+});
+</script>
 @stop
