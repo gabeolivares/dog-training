@@ -19,7 +19,47 @@
   </video>
 </header>
 
-<h1>Home Page</h1>
+<section id="homeReviews">
+  <h1>Customer Reviews</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      @foreach($reviews as $idx => $review)
+        <li data-target="#myCarousel" data-slide-to="{{ $idx }}" class="{{ ($idx == 0 ? 'active' : '') }}"></li>
+      @endforeach
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      @foreach($reviews as $idx => $review)
+      <div class="item {{ ($idx == 0 ? 'active' : '') }}">
+        <div class="carousel-caption">
+          <h3>{{ $review->fullName }}</h3>
+          <p>{{ $review->message }}</p>
+          <fieldset class="rating">
+            <input type="radio" name="rating" value="5" {{ ($review->rating == 5 ? 'checked' : '') }}/><label for="star5" title="Rocks!">5 stars</label>
+            <input type="radio" name="rating" value="4" {{ ($review->rating == 4 ? 'checked' : '') }}/><label for="star4" title="Pretty good">4 stars</label>
+            <input type="radio" name="rating" value="3" {{ ($review->rating == 3 ? 'checked' : '') }}/><label for="star3" title="Meh">3 stars</label>
+            <input type="radio" name="rating" value="2" {{ ($review->rating == 2 ? 'checked' : '') }}/><label for="star2" title="Kinda bad">2 stars</label>
+            <input type="radio" name="rating" value="1" {{ ($review->rating == 1 ? 'checked' : '') }}/><label for="star1" title="Sucks big time">1 star</label>
+          </fieldset>
+          <br />
+        </div>
+      </div>
+      @endforeach
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
 
 @stop
 

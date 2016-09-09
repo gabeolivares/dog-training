@@ -3,14 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Firebase\FirebaseLib;
 use App\Http\Requests;
 
 class MainController extends Controller
 {
+  protected $firebase;
+
+  public function __construct(FirebaseLib $firebase) {
+    $this->firebase = $firebase;
+  }
+
   public function index()
   {
-    return view('home');
+    $reviews = json_decode($this->firebase->get('/reviews'));
+
+    return view('home')->with('reviews', $reviews);
   }
 
   public function about()
