@@ -30,4 +30,9 @@
 @stop
 
 @section('footer')
+<script>
+$(document).ready(function() {
+  initializeGallery();
+});
+</script>
 @stop

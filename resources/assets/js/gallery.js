@@ -1,4 +1,4 @@
-(function($) {
+var initializeGallery = function() {
     "use strict";
 
     var URL = '//res.cloudinary.com/thebarkinbonesinn/image/upload';
@@ -43,4 +43,4 @@
         $container.append(buildImageHtml(data[i], i));
       }
     })
-})(jQuery);
+};
