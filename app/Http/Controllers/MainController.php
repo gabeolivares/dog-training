@@ -16,7 +16,7 @@ class MainController extends Controller
 
   public function index()
   {
-    $reviews = json_decode($this->firebase->get('/reviews'));
+    $reviews = json_decode($this->firebase->get('/reviews', ['orderBy' => '"approved"', 'equalTo'=> 'true']));
 
     return view('home')->with('reviews', $reviews);
   }
