@@ -22,7 +22,7 @@
             $form.find('.alert-danger').show();
           });
       } else {
-        alert("email is invalid");
+        alert("Email is invalid!");
       }
 
       console.log(formData);
