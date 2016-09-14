@@ -1,0 +1,177 @@
+#submit-reviews {
+  text-align: left;
+
+  h1 {
+    text-align: center;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  div, textarea, input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+  .contact-p {
+    text-align: justify;
+  }
+
+  .operating-hours {
+    color: #eee;
+    margin: 0 0 1em 0 !important;
+    padding: 0 1.5em !important;
+  }
+
+  .operating-hours .header {
+    color: #CAFF38;
+    text-align: center;
+  }
+
+  .normal-ul
+  {
+    text-align: left;
+    list-style: initial !important;
+  }
+
+  .contact {
+    display: flex;
+  }
+
+  .contact ul {
+    list-style: none;
+  }
+
+  .cblock {
+    background-color: #37beef;
+    padding: 20px;
+    text-align: start;
+    border: 1px solid #31aad6;
+    display: table-cell;
+    border-radius: 12px;
+  }
+
+  .row {
+    margin: 0 0 1em 0;
+    padding: 0 1.5em;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .contact-btn {
+    font-size: 1.0625em;
+    display: inline-block;
+    padding: 0.74em 1.5em;
+    margin: 1.5em 0 0;
+    color: #fff;
+    border-width: 0 0 0 0;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+    background-color: #b3b3b3;
+    border-bottom-color: #8c8c8c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  .contact-btn:hover {
+    background-color: #bfbfbf;
+  }
+  .contact-btn.btn-submit {
+    background-color: #4f6fad;
+    border-bottom-color: #374d78;
+  }
+  .contact-btn.btn-submit:hover {
+    background-color: #5f7db6;
+  }
+
+  form {
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 10px 15px;
+    /*background-color: #fff;
+    border: 1px solid #cfcfcf;*/
+  }
+  form label:not(.rating-label) {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: #4f6fad;
+    font-size: 1em;
+  }
+  form input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    color: #555;
+    font-size: 1em;
+    width: 100%;
+  }
+  form textarea {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    width: 100%;
+    color: #555;
+  }
+  form small {
+    color: #4f6fad;
+    margin: 0 0 0 0.5em;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .cblock {
+      text-align: center;
+    }
+
+    .row {
+      padding: 0;
+    }
+
+    .contact {
+      display: inline-block;
+    }
+
+    .pull-right {
+      float: none;
+    }
+
+    form {
+      padding: 0px;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    label {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      clear: both;
+    }
+
+    li, p {
+      width: 100%;
+    }
+
+    input.btn {
+      margin: 1.5em 0 0.5em;
+    }
+
+    h1 {
+      font-size: 2.25em;
+    }
+
+    h3 {
+      font-size: 1.125em;
+    }
+
+    li small {
+      display: none;
+    }
+  }
+
+}

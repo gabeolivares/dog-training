@@ -18,6 +18,7 @@ elixir(function(mix) {
         'about.scss',
         'contact.scss',
         'services.scss',
+        'submit-review.scss',
         'review.scss'
       ])
       .scripts([
