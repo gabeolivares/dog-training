@@ -15,3 +15,4 @@ Route::get('/services/daycare', 'ServicesController@daycare');
 
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact/send', 'ContactController@send');
+Route::post('/review/send', 'ContactController@sendReview');

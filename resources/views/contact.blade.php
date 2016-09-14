@@ -64,11 +64,11 @@
             <div class="row">
                 <div class="col-md-6">
                   <label for="first_name">first name</label>
-                  <input type="text" name="first_name" placeholder="John" />
+                  <input type="text" required name="first_name" placeholder="John" />
                 </div>
                 <div class="col-md-6">
                   <label for="last_name">last name</label>
-                  <input type="text" name="last_name" placeholder="Doe" />
+                  <input type="text" required name="last_name" placeholder="Doe" />
                 </div>
             </div>
 
@@ -84,7 +84,7 @@
             <div class="row">
               <div class="col-md-12">
                 <label for="comments">comments</label>
-                <textarea cols="46" rows="3" name="comments"></textarea>
+                <textarea cols="46" rows="3" required name="comments"></textarea>
               </div>
             </div>
 
