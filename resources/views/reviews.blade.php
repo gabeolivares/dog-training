@@ -42,8 +42,9 @@ var buildData = function(key)
   $columns.each(function(i, item) {
     var key = $(item).data('key');
     var val = $(item).html();
+
     if ( key === 'rating' ){
-      val = $(item).find('input[name=rating]:checked').val()
+      val = $(item).find('input[name*=rating]:checked').val()
     }
 
     data[key] = val;
@@ -54,7 +55,7 @@ var buildData = function(key)
 
 function deleteReview(key)
 {
-  database.ref('/reviews/' + key).delete().then(function() {
+  database.ref('/reviews/' + key).remove().then(function() {
     $('#' + key).remove();
 
     if( $('#reviews-container').find('tbody tr').length == 0 )
@@ -69,6 +70,7 @@ function approveReview(key)
 {
   var data = buildData(key);
   data['approved'] = true;
+console.log(data);
 
   database.ref('/reviews/' + key).update(data).then(function() {
     $('#' + key).find('button.approve').remove();
@@ -97,11 +99,11 @@ var renderReview = function(data)
       '<td data-key="message">' + review.message + '</td>' +
       '<td data-key="rating" class="rating-column">' +
         '<fieldset class="rating">' +
-          '<input type="radio" name="rating" value="5" ' + (review.rating == 5 ? 'checked' : '') + '/><label for="star5" title="Rocks!">5 stars</label>' +
-          '<input type="radio" name="rating" value="4" ' + (review.rating == 4 ? 'checked' : '') + '/><label for="star4" title="Pretty good">4 stars</label>' +
-          '<input type="radio" name="rating" value="3" ' + (review.rating == 3 ? 'checked' : '') + '/><label for="star3" title="Meh">3 stars</label>' +
-          '<input type="radio" name="rating" value="2" ' + (review.rating == 2 ? 'checked' : '') + '/><label for="star2" title="Kinda bad">2 stars</label>' +
-          '<input type="radio" name="rating" value="1" ' + (review.rating == 1 ? 'checked' : '') + '/><label for="star1" title="Sucks big time">1 star</label>' +
+          '<input type="radio" id="star5' + data.key + '" name="rating' + data.key + '" value="5" ' + (review.rating == 5 ? 'checked' : '') + '/><label for="star5' + data.key + '" title="Rocks!">5 stars</label>' +
+          '<input type="radio" id="star4' + data.key + '" name="rating' + data.key + '" value="4" ' + (review.rating == 4 ? 'checked' : '') + '/><label for="star4' + data.key + '" title="Pretty good">4 stars</label>' +
+          '<input type="radio" id="star3' + data.key + '" name="rating' + data.key + '" value="3" ' + (review.rating == 3 ? 'checked' : '') + '/><label for="star3' + data.key + '" title="Meh">3 stars</label>' +
+          '<input type="radio" id="star2' + data.key + '" name="rating' + data.key + '" value="2" ' + (review.rating == 2 ? 'checked' : '') + '/><label for="star2' + data.key + '" title="Kinda bad">2 stars</label>' +
+          '<input type="radio" id="star1' + data.key + '" name="rating' + data.key + '" value="1" ' + (review.rating == 1 ? 'checked' : '') + '/><label for="star1' + data.key + '" title="Sucks big time">1 star</label>' +
         '</fieldset>' +
       '</td>' +
       '<td data-key="reviewed_on">' + review.reviewed_on + '</td>' +

@@ -32,17 +32,17 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <?php $idx = 0 ;?>
-      @foreach($reviews as $review)
+      @foreach($reviews as $key => $review)
       <div class="item {{ ($idx === 0 ? 'active' : '') }}">
         <div class="carousel-caption">
           <h3>{{ $review->fullName }}</h3>
           <p>{{ $review->message }}</p>
           <fieldset class="rating">
-            <input type="radio" name="rating" value="5" {{ ($review->rating == 5 ? 'checked' : '') }}/><label for="star5" title="Rocks!">5 stars</label>
-            <input type="radio" name="rating" value="4" {{ ($review->rating == 4 ? 'checked' : '') }}/><label for="star4" title="Pretty good">4 stars</label>
-            <input type="radio" name="rating" value="3" {{ ($review->rating == 3 ? 'checked' : '') }}/><label for="star3" title="Meh">3 stars</label>
-            <input type="radio" name="rating" value="2" {{ ($review->rating == 2 ? 'checked' : '') }}/><label for="star2" title="Kinda bad">2 stars</label>
-            <input type="radio" name="rating" value="1" {{ ($review->rating == 1 ? 'checked' : '') }}/><label for="star1" title="Sucks big time">1 star</label>
+            <input type="radio" name="rating{{ $key }}" value="5" {{ ($review->rating == 5 ? 'checked' : '') }}/><label for="star5" title="Rocks!">5 stars</label>
+            <input type="radio" name="rating{{ $key }}" value="4" {{ ($review->rating == 4 ? 'checked' : '') }}/><label for="star4" title="Pretty good">4 stars</label>
+            <input type="radio" name="rating{{ $key }}" value="3" {{ ($review->rating == 3 ? 'checked' : '') }}/><label for="star3" title="Meh">3 stars</label>
+            <input type="radio" name="rating{{ $key }}" value="2" {{ ($review->rating == 2 ? 'checked' : '') }}/><label for="star2" title="Kinda bad">2 stars</label>
+            <input type="radio" name="rating{{ $key }}" value="1" {{ ($review->rating == 1 ? 'checked' : '') }}/><label for="star1" title="Sucks big time">1 star</label>
           </fieldset>
           <br />
         </div>
