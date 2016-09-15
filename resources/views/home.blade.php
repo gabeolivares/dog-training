@@ -31,8 +31,9 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      @foreach($reviews as $idx => $review)
-      <div class="item {{ ($idx == 0 ? 'active' : '') }}">
+      <?php $idx = 0 ;?>
+      @foreach($reviews as $review)
+      <div class="item {{ ($idx === 0 ? 'active' : '') }}">
         <div class="carousel-caption">
           <h3>{{ $review->fullName }}</h3>
           <p>{{ $review->message }}</p>
@@ -46,6 +47,7 @@
           <br />
         </div>
       </div>
+      <?php $idx = 1 ;?>
       @endforeach
     </div>
 
