@@ -19,6 +19,7 @@
         $.post('/review/send', formData)
           .success(function(data) {
             $form.find('input, textarea').not('input[type="submit"]').val('');
+            $form.find('input[type=radio])').prop('checked', false);
           })
           .error(function(data) {
             alert("Something wrong happend. Please try again later.")
