@@ -438,3 +438,20 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+@media (max-width: 480px) {
+  header{
+    height:650px;
+  }
+  #video-background {
+    position: absolute;
+    right: 0;
+    min-height: 300px;
+    width: auto;
+    height: 300px;
+    z-index: 1;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

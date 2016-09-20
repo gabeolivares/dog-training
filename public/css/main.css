@@ -177,3 +177,12 @@ aside {
 .center {
   text-align: center;
 }
+@media (max-width: 480px) {
+  .footer-images img{
+    width:50px;
+    margin-left:25px;
+  }
+  #homepage-title{
+    text-align:center;
+  }
+}
