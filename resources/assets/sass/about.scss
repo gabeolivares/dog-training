@@ -1,0 +1,17 @@
+#about {
+  .about {
+    display: flex;
+    border-radius: 12px;
+    background-color: #37beef;
+  }
+
+  .team-info {
+    padding: 40px 30px 10px 30px;
+  }
+
+  @media(max-width:768px) {
+    .about {
+      display: inline-block;
+    }
+  }
+}

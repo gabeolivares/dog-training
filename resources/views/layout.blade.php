@@ -12,6 +12,7 @@
         @yield('content')
 
         @include('includes.footer')
+        @include('includes.auth')        
 
         @yield('footer')
     </body>

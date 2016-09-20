@@ -2,28 +2,27 @@
     "use strict";
 
     $('#contact-form').submit(function(event) {
-      console.log("submitting stuff");
+      var $form = $(this);
 
       var formData = {
-           'first_name'    : $(this).find('input[name=first_name]').val(),
-           'last_name'     : $(this).find('input[name=last_name]').val(),
-           'email'         : $(this).find('input[name=email]').val(),
-           'comments'      : $(this).find('textarea[name=comments]').val()
+           'first_name'    : $form.find('input[name=first_name]').val(),
+           'last_name'     : $form.find('input[name=last_name]').val(),
+           'email'         : $form.find('input[name=email]').val(),
+           'comments'      : $form.find('textarea[name=comments]').val()
       };
 
       if(isEmail(formData['email']))
       {
         $.post('/contact/send', formData)
           .success(function(data) {
-            console.log("success");
-            console.log(data);
+            $form.find('input, textarea').not('input[type="submit"]').val('');
+            $form.find('.alert-success').show();
           })
           .error(function(data) {
-            console.log("error");
-            console.log(data);
+            $form.find('.alert-danger').show();
           });
       } else {
-        alert("email is invalid");
+        alert("Email is invalid!");
       }
 
       console.log(formData);

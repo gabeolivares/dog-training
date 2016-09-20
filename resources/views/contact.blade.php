@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('head')
-<link rel="stylesheet" href="/css/contact.css">
 @stop
 
 @section('content')
@@ -65,11 +64,11 @@
             <div class="row">
                 <div class="col-md-6">
                   <label for="first_name">first name</label>
-                  <input type="text" name="first_name" placeholder="John" />
+                  <input type="text" required name="first_name" placeholder="John" />
                 </div>
                 <div class="col-md-6">
                   <label for="last_name">last name</label>
-                  <input type="text" name="last_name" placeholder="Doe" />
+                  <input type="text" required name="last_name" placeholder="Doe" />
                 </div>
             </div>
 
@@ -85,13 +84,28 @@
             <div class="row">
               <div class="col-md-12">
                 <label for="comments">comments</label>
-                <textarea cols="46" rows="3" name="comments"></textarea>
+                <textarea cols="46" rows="3" required name="comments"></textarea>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12">
-                <input class="btn btn-submit" type="submit" value="Submit" />
+                <input class="btn btn-submit contact-btn" type="submit" value="Submit" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="alert alert-success fade in" style="display:none">
+                  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Email Sent!</strong>
+                </div>
+
+
+                <div class="alert alert-danger fade in" style="display:none">
+                  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Error!</strong> Something weird occurred, please try again later.
+                </div>
               </div>
             </div>
           </form>
@@ -103,7 +117,7 @@
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <p class="no-margin">
+          <p class="contact-p no-margin">
             We promote a healthy environment to all dogs in our care and want them to
             go home just as healthy. To uphold health, the following vaccinations required are:
           </p>
@@ -112,7 +126,7 @@
             <li>DHLPP(Distemper) - 1 and 3 year vaccination is excepted</li>
             <li>Bordetella(Kennel Cough) - 6 month and 1 year vaccination is excepted</li>
           </ul>
-          <p>Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
+          <p class="contact-p">Flea/Tick Preventative is not required but <b>Highly recommended.</b></p>
 
           <div class="price-chage">
             *Note if fleas are found on pet guests at check-in,
@@ -121,7 +135,7 @@
           <br />
           <img alt="Contact Image" src="//res.cloudinary.com/thebarkinbonesinn/image/upload/v1471804350/contact/happy.jpg" />
           <br />
-          <p>
+          <p class="contact-p">
             Unlike other pet care options, come rain or shine, 365 days a year, we always have staff
             here caring for our furry guests in our state-of-the-art, secure facility.
             However, during select holidays we give our front desk staff well-deserved time
@@ -145,5 +159,4 @@
 @stop
 
 @section('footer')
-<script src="/js/contact.js"></script>
 @stop

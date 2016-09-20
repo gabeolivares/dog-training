@@ -4,6 +4,8 @@ Route::get('/', 'MainController@index');
 Route::get('/about', 'MainController@about');
 Route::get('/services', 'ServicesController@index');
 Route::get('/gallery', 'MainController@gallery');
+Route::get('/submit-review', 'MainController@submitReview');
+Route::get('/reviews', 'MainController@reviews');
 
 Route::get('/services/boarding', 'ServicesController@boarding');
 Route::get('/services/grooming', 'ServicesController@grooming');
@@ -13,3 +15,4 @@ Route::get('/services/daycare', 'ServicesController@daycare');
 
 Route::get('/contact', 'ContactController@index');
 Route::post('/contact/send', 'ContactController@send');
+Route::post('/review/send', 'ContactController@sendReview');

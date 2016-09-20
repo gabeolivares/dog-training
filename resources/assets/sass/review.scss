@@ -1,0 +1,22 @@
+#review {
+  #reviews-container {
+    padding: 0 10%;
+  }
+
+  table {
+    border-radius: 12px;
+    background-color: #37beef;
+
+    tbody {
+      color: white;
+
+      tr:hover {
+        background-color: grey;
+      }
+
+      .rating-column {
+        width: 170px;
+      }
+    }
+  }
+}
